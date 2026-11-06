@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f5f9;
+      color: #222;
+      text-align: center;
+      margin: 0;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      color: #2a5db0;
+      margin-bottom: 10px;
+    }
+
+    p.sub {
+      color: #666;
+      margin-bottom: 30px;
+    }
+
+    .catalog {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .product {
+      background: #fff;
+      border: 2px solid #dbe3ec;
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    .product svg {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 12px;
+    }
+
+    .product h2 {
+      color: #2a5db0;
+      font-size: 18px;
+      margin: 0 0 8px;
+    }
+
+    .product .price {
+      color: #e0651a;
+      font-weight: bold;
+      font-size: 20px;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Our Products</h1>
+  <p class="sub">A simple catalog.</p>
+
+  <div class="catalog">
+    <div class="product">
+      <svg viewBox="0 0 400 300" role="img" aria-label="Blue mug">
+        <rect width="400" height="300" fill="#e6f0ff"/>
+        <rect x="125" y="110" width="125" height="115" rx="14" fill="#2a5db0"/>
+        <path d="M250 138 h22 a26 26 0 0 1 0 52 h-22" fill="none" stroke="#2a5db0" stroke-width="14"/>
+        <ellipse cx="187" cy="110" rx="62" ry="11" fill="#8fb5e8"/>
+      </svg>
+      <h2>Blue Mug</h2>
+      <p class="price">$12</p>
+    </div>
+
+    <div class="product">
+      <svg viewBox="0 0 400 300" role="img" aria-label="Red notebook">
+        <rect width="400" height="300" fill="#ffe9e6"/>
+        <rect x="135" y="80" width="130" height="150" rx="10" fill="#d9452f"/>
+        <rect x="135" y="80" width="22" height="150" rx="10" fill="#a82f1f"/>
+        <line x1="178" y1="120" x2="240" y2="120" stroke="#ffe9e6" stroke-width="8" stroke-linecap="round"/>
+        <line x1="178" y1="150" x2="240" y2="150" stroke="#ffe9e6" stroke-width="8" stroke-linecap="round"/>
+        <line x1="178" y1="180" x2="220" y2="180" stroke="#ffe9e6" stroke-width="8" stroke-linecap="round"/>
+      </svg>
+      <h2>Red Notebook</h2>
+      <p class="price">$8</p>
+    </div>
+
+    <div class="product">
+      <svg viewBox="0 0 400 300" role="img" aria-label="Green bottle">
+        <rect width="400" height="300" fill="#e3f7e8"/>
+        <rect x="176" y="60" width="48" height="24" rx="5" fill="#1f6f3f"/>
+        <rect x="182" y="84" width="36" height="34" fill="#2e9e5b"/>
+        <rect x="158" y="112" width="84" height="120" rx="20" fill="#2e9e5b"/>
+        <rect x="172" y="150" width="56" height="40" rx="6" fill="#e3f7e8"/>
+      </svg>
+      <h2>Green Bottle</h2>
+      <p class="price">$15</p>
+    </div>
+
+    <div class="product">
+      <svg viewBox="0 0 400 300" role="img" aria-label="Yellow lamp">
+        <rect width="400" height="300" fill="#fff6d6"/>
+        <polygon points="200,70 268,160 132,160" fill="#e0a415"/>
+        <rect x="194" y="160" width="12" height="72" fill="#b07f0a"/>
+        <ellipse cx="200" cy="236" rx="52" ry="12" fill="#b07f0a"/>
+      </svg>
+      <h2>Yellow Lamp</h2>
+      <p class="price">$25</p>
+    </div>
+
+    <div class="product">
+      <svg viewBox="0 0 400 300" role="img" aria-label="Orange backpack">
+        <rect width="400" height="300" fill="#ffefe0"/>
+        <rect x="142" y="104" width="116" height="136" rx="28" fill="#e0651a"/>
+        <rect x="158" y="140" width="84" height="44" rx="12" fill="#ffc79a"/>
+        <rect x="176" y="86" width="48" height="22" rx="10" fill="#b34c10"/>
+        <rect x="186" y="196" width="28" height="18" rx="6" fill="#ffc79a"/>
+      </svg>
+      <h2>Orange Backpack</h2>
+      <p class="price">$40</p>
+    </div>
+
+    <div class="product">
+      <svg viewBox="0 0 400 300" role="img" aria-label="Purple speaker">
+        <rect width="400" height="300" fill="#f0e8ff"/>
+        <rect x="145" y="78" width="110" height="150" rx="16" fill="#6b3fc9"/>
+        <circle cx="200" cy="140" r="30" fill="#d9c9ff"/>
+        <circle cx="200" cy="196" r="14" fill="#d9c9ff"/>
+      </svg>
+      <h2>Purple Speaker</h2>
+      <p class="price">$30</p>
+    </div>
+        <div class="product">
+      <svg viewBox="0 0 400 300" role="img" aria-label="Blue backpack">
+        <rect width="400" height="300" fill="#ffefe0"/>
+        <rect x="142" y="104" width="116" height="136" rx="28" fill="#e0651a"/>
+        <rect x="158" y="140" width="84" height="44" rx="12" fill="#ffc79a"/>
+        <rect x="176" y="86" width="48" height="22" rx="10" fill="#b34c10"/>
+        <rect x="186" y="196" width="28" height="18" rx="6" fill="#ffc79a"/>
+      </svg>
+      <h2>Blue Backpack</h2>
+      <p class="price">$35</p>
+    </div>
+  </div>
+
+</body>
+</html>
